@@ -5,11 +5,13 @@
 ##################################################################################
 #                                LOGIC GOES BELOW                     		#
 ##################################################################################
-#
-#
-#
-#
-#
+# first time i roll the die and store its value in a variable                    #
+# then i will apply a while loop  untill i am getting the value larger than the 
+# previous value after each time rolling and i will store the value in a sum variable which intialises to zero.
+# and one more variable to count (intialised to 0) the number of rools if condition is following i will increase its value by 1
+# else if i am getting value less than previous value i will break the loop.
+# and finally return the value of sum and value of count
+# i know the c++ programming language so it is difficult for me to implement it in python . 
 ##################################################################################
 ##################################################################################
 ## You have to fill in two functions BELOW 					##
@@ -33,9 +35,10 @@
 
 
 def findSumDieRoll(n):
-	##################################
-	##          FILL ME IN          ##
-	##################################
+	
+		                   ##################################
+	                           ##          FILL ME IN          ##
+	                           ##################################
 	# n is a float
 	sumRolls = n/2 # Replace me with your answer
 
